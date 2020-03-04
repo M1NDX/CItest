@@ -9,7 +9,7 @@ router.get('/users', (req,res)=>{
 router.post('/users',(req,res)=>{
     //req.body
     console.log(req.body);
-    res.send({ok:"ok"});
+    res.send({ok:"ok3"});
     
 })
 
